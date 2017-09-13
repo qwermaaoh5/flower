@@ -1,0 +1,108 @@
+.head{
+	background: rgba(250,250,250,0.9);
+	height: 44px;
+	border-bottom: #4e4e4e;
+	position: relative;
+	border-bottom: 1px solid #e4e4e4;
+}
+.headChevronLeft{
+	display: block;
+	position: absolute;
+	top: 11px;
+	left: 12px;
+}
+.headChevronLeft>img{
+	width: 24px;
+	height: 24px;
+}
+.headerIconMore{
+	display: block;
+	position: absolute;
+	top: 11px;
+	right: 12px;
+}
+.headerIconMore>img{
+	width: 24px;
+	height: 24px;
+}
+.logo{
+	color:#232323;
+	text-align: center;
+	font-size: 17px;
+	line-height: 44px;
+}
+.commodity{
+	text-align: center;
+}
+.commodity>img{
+	width: 60%;
+	margin: 30px 0 10px 0;
+}
+.commodity>a{
+	position: absolute;
+	left: 38%;
+	top: 48%;
+	color: #f60;
+	background: #fff;
+	padding: 0 20px;
+	border-radius: 3px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #f60;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.commodity>p{
+	font-size: 14px;
+	text-align: center;
+	color: rgb(75,75,75);
+	padding-bottom: 70px;
+}
+.cake_lb{
+	height: 38px;
+	line-height: 38px;
+	padding: 0 10px 0 16px;
+	border-top: 8px solid #eee;
+}
+.cake_lb>p{
+	color: #111;
+	font-size: 14px;
+}
+.main{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 640px;
+	font-size: 14px;
+	overflow-x: scroll;
+}
+.main>ul{
+	width: 512px;
+	padding: 0 0 0 8px;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.main>ul>li{
+	float: left;
+	width: 84px;
+	list-style: none;
+}
+.main>ul>li>a{
+	display: block;
+	width: auto;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.main>ul>li>a>img{
+	width: 100%;
+	margin-top: 12px;
+}
+.main>ul>li>a>p{
+	line-height: 24px;
+	color: rgb(35,35,35);
+	font-size: 12px;
+	text-align: center;
+}
